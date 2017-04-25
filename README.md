@@ -1,6 +1,6 @@
 # Info
 
-Identity manager midPoint with [MIT Kerberos connector](https://github.com/CESNET/kerberos-connector).
+Identity manager midPoint with [MIT Kerberos connector](https://github.com/CESNET/kerberos-connector) and local KDC server for testing.
 
 More information: [https://github.com/valtri/docker-midpoint](https://github.com/valtri/docker-midpoint)
 
