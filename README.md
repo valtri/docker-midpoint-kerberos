@@ -8,12 +8,3 @@ More information: [https://github.com/valtri/docker-midpoint](https://github.com
 
     docker pull valtri/docker-midpoint-kerberos
     docker run -itd --name midpoint-kerberos valtri/docker-midpoint-kerberos
-
-After midPoint launch, Kerberos resource needs to be "recomputed":
-
-1. select "*Resources/List resources*"
-2. select "*Edit XML*" on "*Kerberos*" resource settings
-3. switch on "*Reevaluate search filters*"
-4. click "*Save*"
-
-"*Test connection*" in the Kerberos resource should work now.
